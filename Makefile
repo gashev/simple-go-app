@@ -6,3 +6,6 @@ clean:
 
 run:
 	./main
+
+docker:
+	docker build . -t simple-go-app
